@@ -110,3 +110,5 @@ Bonus (if applicable):
 
 
 Provide specific vulnerabilities found with severity ratings.
+
+Write this into a markdown file and place it in the audits/ folder.

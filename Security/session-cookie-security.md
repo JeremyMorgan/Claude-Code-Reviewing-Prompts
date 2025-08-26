@@ -1,34 +1,30 @@
-# Logging, Monitoring and Secrets
-
-Review logging and monitoring implementation in this application.
+# Session and Cookie Security
+Analyze this project's source code. 
+Focus on session management and cookie security.
 
 Verify:
-1. Sensitive data not logged
-   - Passwords, tokens, PII
-   - Credit card numbers
-   - API keys
+1. Session configuration
+   - Secure flag (HTTPS only)
+   - HttpOnly flag (no JS access)
+   - SameSite attribute
+   - Session timeout
+   - Session regeneration after login
 
-2. Security event logging
-   - Failed login attempts
-   - Authorization failures
-   - Input validation failures
-   - System errors
+2. Cookie security
+   - All cookies have appropriate flags
+   - No sensitive data in cookies
+   - Proper domain/path scoping
+   - Encryption for sensitive cookies
 
-3. Log injection prevention
-   - Input sanitization in logs
-   - Structured logging
+3. CSRF Protection
+   - Token implementation
+   - Double submit cookie pattern
+   - Origin header validation
 
-4. Log storage and retention
-   - Secure storage
-   - Rotation policy
-   - Backup strategy
-
-5. Monitoring alerts
-   - Unusual activity detection
-   - Error rate monitoring
-   - Performance anomalies
-
-Provide a logging compliance checklist.
+4. Session storage
+   - Not using default in-memory storage in production
+   - Redis/database backed sessions
+   - Session cleanup/expiration
 
 ## Provide:
 

@@ -1,18 +1,34 @@
-Review all file upload functionality:
+# Logging and Monitoring
 
-Check for:
-1. File type validation (whitelist, not blacklist)
-2. File size limits
-3. Filename sanitization
-4. Anti-virus scanning integration
-5. Storage location (outside webroot)
-6. Direct execution prevention
-7. MIME type validation
-8. Magic number verification
-9. Image manipulation library vulnerabilities
-10. ZIP bomb protection
+Review logging and monitoring implementation in this application.
 
-Provide recommendations for secure file handling.
+Verify:
+1. Sensitive data not logged
+   - Passwords, tokens, PII
+   - Credit card numbers
+   - API keys
+
+2. Security event logging
+   - Failed login attempts
+   - Authorization failures
+   - Input validation failures
+   - System errors
+
+3. Log injection prevention
+   - Input sanitization in logs
+   - Structured logging
+
+4. Log storage and retention
+   - Secure storage
+   - Rotation policy
+   - Backup strategy
+
+5. Monitoring alerts
+   - Unusual activity detection
+   - Error rate monitoring
+   - Performance anomalies
+
+Provide a logging compliance checklist.
 
 ## Provide:
 
@@ -35,3 +51,5 @@ Be concrete and cite exact code locations and identifiers.
 Prefer minimal, drop-in fix snippets over prose.
 
 Do not invent files or functions that aren’t present; if context is missing, mark as Unable to verify and say what code would prove it.
+
+Write this into a markdown file and place it in the audits/ folder.

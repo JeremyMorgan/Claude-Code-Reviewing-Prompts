@@ -180,3 +180,4 @@ Prefer minimal, drop-in fix snippets over prose.
 
 Do not invent files or functions that aren’t present; if context is missing, mark as Unable to verify and say what code would prove it.
 
+Write this into a markdown file and place it in the audits/ folder.

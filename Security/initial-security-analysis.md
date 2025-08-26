@@ -1,31 +1,25 @@
-# Session and Cookie Security
+# Initial Project Analysis
 
-Analyze session management and cookie security:
+**Perform a Project Structure Audit**
 
+Analyze the entire project structure and identify:
 
-Verify:
-1. Session configuration
-   - Secure flag (HTTPS only)
-   - HttpOnly flag (no JS access)
-   - SameSite attribute
-   - Session timeout
-   - Session regeneration after login
+1. All entry points (app.js, server.js, etc.)
+2. All routes and endpoints
+3. Middleware chain and order
+4. External service integrations
+5. Database connection points
+6. Authentication/authorization flow
+7. File upload handling locations
+8. API rate limiting implementation
 
-2. Cookie security
-   - All cookies have appropriate flags
-   - No sensitive data in cookies
-   - Proper domain/path scoping
-   - Encryption for sensitive cookies
+Start by examining these core files:
+- package.json (for vulnerable dependencies)
+- app.js or server.js (for middleware configuration)
+- All files in routes/
+- All files in middleware/
 
-3. CSRF Protection
-   - Token implementation
-   - Double submit cookie pattern
-   - Origin header validation
-
-4. Session storage
-   - Not using default in-memory storage in production
-   - Redis/database backed sessions
-   - Session cleanup/expiration
+---
 
 ## Provide:
 
@@ -48,3 +42,5 @@ Be concrete and cite exact code locations and identifiers.
 Prefer minimal, drop-in fix snippets over prose.
 
 Do not invent files or functions that aren’t present; if context is missing, mark as Unable to verify and say what code would prove it.
+
+Write this into a markdown file and place it in the audits/ folder.
