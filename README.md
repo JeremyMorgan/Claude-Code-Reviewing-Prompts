@@ -7,7 +7,7 @@ This repository contains a curated set of prompts designed for use with Claude C
 ### Code Quality Prompts
 - [code-duplication-detection.md](Code%20Quality/code-duplication-detection.md): Detects duplicate code and suggests refactoring opportunities.
 - [code-quality-metrics-standards.md](Code%20Quality/code-quality-metrics-standards.md): Reviews code quality metrics and adherence to standards.
-- [design-pattern-implmentation.md](Code%20Quality/design-pattern-implmentation.md): Assesses the use and implementation of design patterns.
+- [design-pattern-implementation.md](Code%20Quality/design-pattern-implementation.md): Assesses the use and implementation of design patterns.
 - [error-handling-resilience.md](Code%20Quality/error-handling-resilience.md): Evaluates error handling and system resilience.
 - [exception-flow-analysis.md](Code%20Quality/exception-flow-analysis.md): Analyzes exception flow and robustness.
 - [initial-software-design-analyis.md](Code%20Quality/initial-software-design-analyis.md): Reviews initial software design for maintainability and scalability.
@@ -19,7 +19,7 @@ This repository contains a curated set of prompts designed for use with Claude C
 ### Security Prompts
 - [api-and-infrastructure.md](Security/api-and-infrastructure.md): Reviews API and infrastructure security.
 - [authentication-flow-review.md](Security/authentication-flow-review.md): Assesses authentication flows for vulnerabilities.
-- [authorization-implmentation.md](Security/authorization-implmentation.md): Evaluates authorization logic and implementation.
+- [authorization-implementation.md](Security/authorization-implementation.md): Evaluates authorization logic and implementation.
 - [business-logic-vulnerabilities.md](Security/business-logic-vulnerabilities.md): Detects vulnerabilities in business logic.
 - [comprehensive-security-report.md](Security/comprehensive-security-report.md): Generates a comprehensive security report.
 - [database-security.md](Security/database-security.md): Reviews database security practices.
