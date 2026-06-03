@@ -2,6 +2,8 @@
 
 This repository contains a curated set of prompts designed for use with Claude Code to perform comprehensive software quality and security audits. Each prompt guides you through best practices, analysis, and review techniques for codebases, focusing on both code quality and security aspects.
 
+#Note: This is now available as a [Claude Code Plugin](https://github.com/JeremyMorgan/code-review-skills) here. 
+
 ## Contents
 
 ### Code Quality Prompts
