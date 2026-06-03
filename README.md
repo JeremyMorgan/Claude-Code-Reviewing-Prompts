@@ -10,7 +10,7 @@ This repository contains a curated set of prompts designed for use with Claude C
 - [design-pattern-implementation.md](Code%20Quality/design-pattern-implementation.md): Assesses the use and implementation of design patterns.
 - [error-handling-resilience.md](Code%20Quality/error-handling-resilience.md): Evaluates error handling and system resilience.
 - [exception-flow-analysis.md](Code%20Quality/exception-flow-analysis.md): Analyzes exception flow and robustness.
-- [initial-software-design-analyis.md](Code%20Quality/initial-software-design-analyis.md): Reviews initial software design for maintainability and scalability.
+- [initial-software-design-analysis.md](Code%20Quality/initial-software-design-analysis.md): Reviews initial software design for maintainability and scalability.
 - [readability-and-naming.md](Code%20Quality/readability-and-naming.md): Checks code readability and naming conventions.
 - [resilience-fault-tolerance.md](Code%20Quality/resilience-fault-tolerance.md): Assesses fault tolerance and system resilience.
 - [solid-principles.md](Code%20Quality/solid-principles.md): Reviews adherence to SOLID principles.
